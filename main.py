@@ -1,8 +1,6 @@
-from datetime import date, datetime
-
-import time
+from datetime import datetime
 
 now = datetime.now()
 
 for i in range(24):
-    print(i)
+    print(i, now)
